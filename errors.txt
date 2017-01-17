@@ -1,0 +1,36 @@
+Bad 1
+-------------------
+The error message for this program occurs at compile time:
+"Bad1.java:1: error: class BAD1 is public, should be declared in a file named BAD1.java
+ public class BAD1 {
+        ^
+ 1 error"
+
+When writing the class for a Java file, the name of the class must exactly match the name of the file, and,
+in this case, BAD1 does not match Bad1, causing the error.
+
+Bad 2
+-------------------
+The error message for this program occurs at run time:
+"Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.String
+         at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4302)
+         at java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2793)
+         at java.util.Formatter$FormatSpecifier.print(Formatter.java:2747)
+         at java.util.Formatter.format(Formatter.java:2520)
+         at java.io.PrintStream.format(PrintStream.java:970)
+         at java.io.PrintStream.printf(PrintStream.java:871)
+         at Bad2.main(Bad2.java:7)"
+
+When using the printf method, the types of the inputs must match the types of the tokens in the format string, and this
+program attempts to input three strings where printf is expecting one string and two integers based on the format string.
+
+Bad 3
+-------------------
+The error message for this program occurs at compile time:
+"Bad3.java:8: error: reached end of file while parsing
+     }
+      ^
+ 1 error"
+
+All curly braces in Java must be balanced (1 opening, 1 closing), and in this program the author simply forgot to add
+another curly brace to end the class declaration after they ended the main method declaration.
