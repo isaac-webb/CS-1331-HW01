@@ -6,8 +6,9 @@ public class Bad1 {
         int enrollment = 256;
 
         System.out.println("You are taking " + course
-                + " with Professor " + professor + " for " + credits
-                + " credits with " + enrollment + " other students!");
+                           + " with Professor " + professor + " for " + credits
+                           + " credits with " + enrollment
+                           + " other students!");
         System.out.println("\nWelcome, young computer scientists :)");
     }
 }

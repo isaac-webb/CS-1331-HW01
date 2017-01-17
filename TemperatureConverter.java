@@ -1,7 +1,8 @@
 /**
  * Created by iwebb on 1/14/17.
  *
- * This is a simple program that prompts a user to enter a temperature in Fahrenheit and prints the corresponding value
+ * This is a simple program that prompts a user to enter a temperature in
+ * Fahrenheit and prints the corresponding value
  * in Celsius.
  */
 
@@ -22,6 +23,8 @@ public class TemperatureConverter {
         double degreesC = (degreesF - 32) * 5 / 9;
 
         // Print the result for the user
-        System.out.printf(degreesF + " degrees Fahrenheit is %.2f degrees Celsius.\n", degreesC);
+        System.out.printf(
+            degreesF + " degrees Fahrenheit is %.2f degrees Celsius.\n",
+            degreesC);
     }
 }
