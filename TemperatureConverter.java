@@ -4,6 +4,8 @@
  * This is a simple program that prompts a user to enter a temperature in
  * Fahrenheit and prints the corresponding value
  * in Celsius.
+ *
+ * I worked on the homework assignment alone, using only course materials.
  */
 
 import java.util.Scanner;

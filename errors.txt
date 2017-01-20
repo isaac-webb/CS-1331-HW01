@@ -1,3 +1,5 @@
+I worked on the homework assignment alone, using only course materials. 
+
 Bad 1
 -------------------
 The error message for this program occurs at compile time:

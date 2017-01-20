@@ -1,3 +1,5 @@
+// I worked on the homework assignment alone, using only course materials. 
+
 public class Bad3 {
     public static void main(String[] args) {
         String building = "College of Computing Building";
